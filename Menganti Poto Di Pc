@@ -1,0 +1,46 @@
+Theme for Windows 10. Supported builds: 1703, 1709, 1803, 1809, 1903, 1909, 2004 and 2009(20H2).
+To determine what build you're on, run 'winver' from the start menu.
+
+How to:
+
+1.Create a system restore point!!! In case your system gets messed up you can restore it.
+
+2.Patch your system using ultraUXThemePatcher:
+https://mhoefs.eu/software_uxtheme.php?lang=en
+See FAQ on patcher site if themes are not applied.
+OR
+https://github.com/namazso/SecureUxTheme
+
+3.Copy contents of the Theme folder to C:\Windows\Resources\Themes.
+
+4.Open Settings > Personalization > Themes. Apply theme.
+
+5.Install OldNewExplorer to remove the ribbon.
+https://msfn.org/board/topic/170375-oldnewexplorer-118/
+(See image 01 for configuration)
+
+6.Use Alt + Shift + P and Alt + P to toggle the details pane and preview pane respectively
+
+7.Install Blank it for a cleaner address bar
+http://fav.me/dbnc5q5
+
+8.You may disable wide context menus, change scroll bar sizes, system fonts and apply other tweaks using Winaero Tweaker
+https://winaero.com/
+
+9.Icons:
+https://mega.nz/file/k0MXjYJJ#O6_znpkACyF1NjoVhZlu5tOWrdtGLAsJLCajVN0A2-Q
+
+Note:
+If the theme is not applied after patching, the patcher may have failed to patch your system. Uninstall it and take ownership of the following files in C:\Windows\System32
+uxtheme.dll, UXInit.dll and themeui.dll. 
+You may use this: https://www.howtogeek.com/howto/windows-vista/add-take-ownership-to-explorer-right-click-menu-in-vista/
+Install the patcher again, note status of the files (see image 02).
+
+Apply the  default Windows theme and uninstall patcher before updating to major Windows 10 update e.g updating from 1809 to 1903.
+
+*Support*
+
+If you like the theme you may support me by buying it here:
+https://gum.co/porcelain
+
+Thanks, enjoy!
